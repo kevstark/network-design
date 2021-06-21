@@ -36,7 +36,8 @@ Roles:
   - Wall of office (to serve office dedicate wifi point + wired devices)
   - Wall of master bedroom (to serve dedicated AP in future)
 - ~$460 [OC200 network controller](#controller), [R605 router](#router) + [SG2210MP 8-port switch + PoE](#switch)
-- $160 [EAP620](#wifi) on roof of kitchen area
+- $160 [EAP620](#wifi-access-points) on roof of kitchen area
+- $130 (optional) [EAP225-OUTDOOR](#wifi-access-points) in the shed
 
 ## TP-Link Omada
 
