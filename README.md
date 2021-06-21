@@ -51,7 +51,8 @@ Comparison:
   - Wall of master bedroom (to serve dedicated AP in future)
 - ~$460 [OC200 network controller](#controller), [R605 router](#router) + [SG2210MP 8-port switch + PoE](#switch)
 - $160 [EAP620](#wifi-access-points) on roof of kitchen area
-- $130 (optional) [EAP225-OUTDOOR](#wifi-access-points) in the shed
+- $130 (optional) [EAP225-WALL](#wifi-access-points) in the office or master bedroom.
+- $130 (optional) [EAP225-OUTDOOR](#wifi-access-points) in/on the shed to provide external coverage and shed coverage.
 
 ## Expanded
 
