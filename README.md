@@ -24,13 +24,28 @@ Roles:
   - Mesh network for long-range external connectivity
   - Dedicated network configuration for IoT, kids, guests
 - [Controller](https://www.tp-link.com/au/business-networking/omada-sdn-controller/)
-  - Hardware or software application that manages & monitors other devices 
+  - _Hardware or software application that manages & monitors other devices_
   - Software preferred if an internal always-on machine exists
+  - [OC200](https://www.tp-link.com/au/business-networking/omada-sdn-controller/oc200/)
+    - $120
 - [Router](https://www.tp-link.com/au/business-networking/omada-sdn-router/)  
-  - Dedicated router enables segmentation of devices/networks, monitoring & control
+  - _Dedicated router enables segmentation of devices/networks, monitoring & control_
+  - [R605](https://www.tp-link.com/au/business-networking/omada-sdn-router/tl-r605/)
+    - ~$90 (amazon)
 - [Switch + PoE](https://www.tp-link.com/au/business-networking/omada-sdn-switch/?filterby=5984%7C5985%7C4993%2C5996)
-  - Fast interconnectivity, expandable as wired network grows
-  - PoE to support cameras/APs
+  - _Fast interconnectivity, expandable as wired network grows_
+  - _PoE to support cameras/APs_
+  - [SG3210XHP-M2-v1](https://www.tp-link.com/au/business-networking/omada-sdn-switch/tl-sg3210xhp-m2/v1/)
+    - 8xLAN+PoE @ 2.5G + 2xSFP @ 10G
+    - 240W PoE budget
+    - ~$630 (pcbyte)
+  - [SG2210MP-v1](https://www.tp-link.com/au/business-networking/omada-sdn-switch/tl-sg2210mp/v1/)
+    - 8xLAN @ 1G + 2xSFP @ 1G
+    - 150W PoE budget
+    - $230 (mwave)
+  - [SG2218-v1](https://www.tp-link.com/au/business-networking/omada-sdn-switch/tl-sg2218/v1/)
+    - 16xLAN @ 1G + 2xSFP @ 1G
+    - $210 (pcbyte au)
 - [Wifi Access Point](https://www.tp-link.com/au/business-networking/omada-sdn-access-point/)
   - Ceiling Mount
     - _Provides large area internal WiFi in living area or between rooms_
