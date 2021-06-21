@@ -1,13 +1,14 @@
-# warabilba-network
+# Network Design
 
 Assumptions
 
 - NBN conected to main house
-  - Shed could be connected earlier during build, but then would be the "master" location
-- Wired connections preferred over wireless, but not overdone
-- PoE preferred over mains+data
-- Shed connected for work/backup
+  - Shed could be connected earlier during build, but then would be the "master" location for NBN/router
+- Wired connections preferred over wireless, but at a budget
+- PoE preferred over mains+data (lower electrician costs)
+- Option for remote shed to serve as work/backup location
 - Dedicated network segments or configuration for [trusted|IoT|guests|kids]
+- Fully-offsite backup via cloud services (or remote family/business property)
 
 Roles:
 
@@ -17,14 +18,9 @@ Roles:
 
 ## Minimal
 
-Minimal data wiring, barebones for wifi coverage across house. Run all data lines and power-points to a large cupboard in cool room such as office.
+> Minimal data wiring - barebones for initial wifi coverage across house with expectation that cameras/external wifi can be run through roof later. 
 
-- CAT6
-  - Roof in living area (Wifi AP for living/entertaining
-  - Ceiling in hallway (to serve kids bedrooms)
-  - Wall point low behind TV area
-  - Wall of office (to serve office dedicate wifi)
-  - Wall of master bedroom (to serve dedicated AP in future)  
+- Run all data lines and 2+ power-points to a large cupboard in cool room such as office.
 - Network cabinet, mounted low or high in office built-in cupboard
   - This will ensure its kept tidy, locked, screen & fan for dust.
   - Biggest one you are willing to dedicate space to.
@@ -33,6 +29,14 @@ Minimal data wiring, barebones for wifi coverage across house. Run all data line
   - [6U, 450d](https://www.selby.com.au/brands/raxx/6u-wall-cabinet-530-450.html) ~$140
   - [8U, 450d](https://www.selby.com.au/brands/raxx/8u-wall-cabinet-530-450.html) ~$150
   - [11U, 500d](https://www.selby.com.au/brands/raxx/11u-19in-wall-mount-network-server-rack-cabinet-11ru.html) ~$180
+- CAT6
+  - Roof in kitchen (Wifi AP for kitchen/living/entertaining
+  - Ceiling in hallway (to serve kids bedrooms)
+  - Wall point low behind TV area (to serve wired and wireless tv/games/media devices)
+  - Wall of office (to serve office dedicate wifi point + wired devices)
+  - Wall of master bedroom (to serve dedicated AP in future)
+- ~$460 [OC200 network controller](#controller), [R605 router](#router) + [SG2210MP 8-port switch + PoE](#switch)
+- $160 [EAP620](#wifi) on roof of kitchen area
 
 ## TP-Link Omada
 
@@ -56,7 +60,7 @@ Minimal data wiring, barebones for wifi coverage across house. Run all data line
 - [R605](https://www.tp-link.com/au/business-networking/omada-sdn-router/tl-r605/)
   - ~$90 (amazon)
 
-### [Switch + PoE](https://www.tp-link.com/au/business-networking/omada-sdn-switch/?filterby=5984%7C5985%7C4993%2C5996)
+### [Switch](https://www.tp-link.com/au/business-networking/omada-sdn-switch/?filterby=5984%7C5985%7C4993%2C5996)
 - _Fast interconnectivity, expandable as wired network grows_
 - _PoE to support cameras/APs_
 - [SG3210XHP-M2-v1](https://www.tp-link.com/au/business-networking/omada-sdn-switch/tl-sg3210xhp-m2/v1/)
@@ -71,7 +75,7 @@ Minimal data wiring, barebones for wifi coverage across house. Run all data line
   - 16xLAN @ 1G + 2xSFP @ 1G
   - $210 (pcbyte au)
 
-### [Wifi Access Point](https://www.tp-link.com/au/business-networking/omada-sdn-access-point/)
+### [Wifi Access Points](https://www.tp-link.com/au/business-networking/omada-sdn-access-point/)
   - Ceiling Mount
     - _Provides large area internal WiFi in living area or between rooms_
     - [EAP620-HD-v1](https://www.tp-link.com/au/business-networking/omada-sdn-access-point/eap620-hd/v1/)
