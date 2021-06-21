@@ -10,6 +10,11 @@ Assumptions
 - Dedicated network segments or configuration for [trusted|IoT|guests|kids]
 - Fully-offsite backup via cloud services (or remote family/business property)
 
+Comparison:
+
+- High-spec consumer-grade single-device ~$600-800 and is not expandable (or iteratively upgradeable)
+- [Ubiquity UniFi](https://www.ubnt.com.au/unifi/) devices have a larger range of integrated devices and capabilities, but at a +2x price
+
 Roles:
 
 | House | Shed |
@@ -38,6 +43,22 @@ Roles:
 - ~$460 [OC200 network controller](#controller), [R605 router](#router) + [SG2210MP 8-port switch + PoE](#switch)
 - $160 [EAP620](#wifi-access-points) on roof of kitchen area
 - $130 (optional) [EAP225-OUTDOOR](#wifi-access-points) in the shed
+
+## Expanded
+
+> All of [minimal](#minimal) wiring and devices, plus increased wiring for additional room points and external wifi/cameras
+
+- CAT6
+  - Single/double runs to all wall points (behind TV, office, bedrooms etc)
+  - Run wall points to kids/spare bedrooms
+  - Spare lines to corners of house under eaves (for cameras and/or external wifi points)
+- Wifi access points
+  - Wall points in office, master bedroom or behind living TV as needed
+  - Roof point in hallway for kids as needed  
+- [SG2210MP 8-port switch + PoE](#switch) in shed (to run multiple cameras or wifi points)
+- Additional [SG2218 16-port switch](#switch) in office to interconnect wired (non-PoE) points (as needed)
+- ~$200-400 [UPS](https://www.umart.com.au/UPS---Power-Protection_C.html?id=57&price_min=&price_max=&filter=0&filter_attr=0.0.0.15223-15116-15039.0.0.0.0.0.0.0.0.0) backup power supply
+- ~$800+ [NAS](https://www.umart.com.au/NAS---Network-Storage_C.html?id=126&brand=271&price_min=&price_max=&filter=0&filter_attr=10126-111094-112003.0.0.0.0.0.0.0.0.0.0) network storage
 
 ## TP-Link Omada
 
