@@ -33,13 +33,7 @@ Roles:
   - PoE to support cameras/APs
 - [Wifi Access Point](https://www.tp-link.com/au/business-networking/omada-sdn-access-point/)
   - Ceiling Mount
-    - Provides large area internal WiFi in living area or between rooms
-    - [EAP245-v3](https://www.tp-link.com/au/business-networking/omada-sdn-access-point/eap245/v3/)
-      - AC1750
-      - $140 (umart)
-    - [EAP265-HD-v1](https://www.tp-link.com/au/business-networking/omada-sdn-access-point/eap265-hd/v1/) 
-      - AC1750
-      - $150 (umart)
+    - _Provides large area internal WiFi in living area or between rooms_
     - [EAP620-HD-v1](https://www.tp-link.com/au/business-networking/omada-sdn-access-point/eap620-hd/v1/)
       - AX1800
       - $160
@@ -48,12 +42,12 @@ Roles:
       - 2.5G uplink
       - $300
   - External
-    - Long-range external wifi
+    - _Long-range external wifi_
     - [EAP225-OUTDOOR-v1](https://www.tp-link.com/au/business-networking/omada-sdn-access-point/eap225-outdoor/v1/)
       - AC1200
       - $130 (umart)
   - Wall Mount
-    - Short-range room-level wifi
+    - _Short-range room-level wifi_
     - [EAP235-WALL-v1](https://www.tp-link.com/au/business-networking/omada-sdn-access-point/eap235-wall/v1/)
       - AC1200
       - 3x LAN ports, including 1x PoE
