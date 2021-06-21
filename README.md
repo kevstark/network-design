@@ -1,25 +1,34 @@
 # Network Design
 
+Objectives:
+
+- Complete wireless coverage within and around house and gardens
+  - Enable work-from-home video conferencing on the move anywhere in/around house
+  - Enable media devices anywhere (focus on living/master initially?)
+- Strong wifi in/around shed to enable calls/stocktake/invoicing immediately when home
+  - Computer/tablet device dedicated for business in shed
+  - Security cameras on shed give exceptional view/coverage
+
 Assumptions
 
 - NBN conected to main house
   - Shed could be connected earlier during build, but then would be the "master" location for NBN/router
-- Wired connections preferred over wireless, but at a budget
-- PoE preferred over mains+data (lower electrician costs)
+- Wired connections in house preferred over wireless, but at a build budget
 - Option for remote shed to serve as work/backup location
 - Dedicated network segments or configuration for [trusted|IoT|guests|kids]
 - Fully-offsite backup via cloud services (or remote family/business property)
 
-Comparison:
-
-- High-spec consumer-grade single-device ~$600-800 and is not expandable (or iteratively upgradeable)
-- [Ubiquity UniFi](https://www.ubnt.com.au/unifi/) devices have a larger range of integrated devices and capabilities, but at a +2x price
 
 Roles:
 
 | House | Shed |
 | ----- | ---- |
 | - NBN/Internet<br>- Router<br>- Switch + PoE<br>- WiFi<br>- Cameras?<br>- NAS/Server | - Switch+PoE<br>- Wifi<br>- Cameras<br>- Backup NAS/Server |
+
+Comparison:
+
+- High-spec consumer-grade single devices cost ~$600-800 and are not easily expandable (or iteratively upgradeable)
+- [Ubiquity UniFi](https://www.ubnt.com.au/unifi/) devices have a larger range of integrated devices and capabilities, but at a +2x price
 
 ## Minimal
 
